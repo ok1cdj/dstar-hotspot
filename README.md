@@ -1,11 +1,11 @@
-# DSTAR-Hotspot
+# DSTAR-Hotspot with Arduino RPi.
 D-STAR hotspot with open HW and SW under GNU GPL2 based on [DVSP2](http://tech4.pl/SQ9MDD/?p=92) by SQ9MDD.
 
 Tested with Raspberry PI 2 and [Western D-STAR image](http://www.westerndstar.co.uk/html/downloads.html).
 
 ![hotspot](https://raw.githubusercontent.com/ok1cdj/dstar-hotspot/master/pics/hotspot.jpg)
 
-## How to compile SW
+## How to compile SW for Arduino
 
 Use Arduino 1.5.X
 
