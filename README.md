@@ -31,6 +31,7 @@ To:
 ## HOW to remove console from serial on RPi
 
 $ sudo nano /boot/cmdline.txt
+
 From:
 ```
 　GNU nano 2.2.6　　　　　　　　　　File: /boot/cmdline.txt
@@ -42,6 +43,7 @@ dwc_otg.lpm_enable=0 rpitestmode=1 console=tty1 root=/dev/mmcblk0p2 rootfstype=e
 ```
 
 $ sudo nano /etc/inittab
+
 From:
 ```
 　GNU nano 2.2.6　　　　　　　　　　File: /etc/inittab
@@ -52,3 +54,5 @@ To:
 ```
 #T0:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100
 ```
+
+## You need configure Ircddbgateway and D-STAR repeater package  to run hotspot
