@@ -31,19 +31,24 @@ To:
 ## HOW to remove console from serial on RPi
 
 $ sudo nano /boot/cmdline.txt
+From:
 ```
 　GNU nano 2.2.6　　　　　　　　　　File: /boot/cmdline.txt
 dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait 
-          ↓
+```
+To:
+```
 dwc_otg.lpm_enable=0 rpitestmode=1 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait
 ```
 
-```
 $ sudo nano /etc/inittab
-
+From:
+```
 　GNU nano 2.2.6　　　　　　　　　　File: /etc/inittab
 #Spawn a getty on Raspberry Pi serial line
 T0:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100
-          ↓
+```
+To:
+```
 #T0:23:respawn:/sbin/getty -L ttyAMA0 115200 vt100
 ```
