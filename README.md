@@ -6,10 +6,10 @@ Tested with Raspberry PI 2 and [Western D-STAR image](http://www.westerndstar.co
 
 ## TODO
 
-** add partlist
-** add more info about HW and building
-** add gerber files for production
-** add configuration for Ircddbgateway and D-STAR repeater
+* add partlist
+* add more info about HW and building
+* add gerber files for production
+* add configuration for Ircddbgateway and D-STAR repeater
 
 ![hotspot](https://raw.githubusercontent.com/ok1cdj/dstar-hotspot/master/pics/hotspot.jpg)
 
