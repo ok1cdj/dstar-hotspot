@@ -9,7 +9,7 @@ Tested with Raspberry PI 2 and [Western D-STAR image](http://www.westerndstar.co
 Use Arduino 1.5.X
 
 Before programming Arduino be sure the "HardwareSerial.cpp" under Arduino instalation folder\hardware\arduino\cores\arduino is changed.
-```
+
 From:
 ```
 #if (RAMEND < 1000)
@@ -18,6 +18,7 @@ From:
 #define SERIAL_BUFFER_SIZE 64
 #endif
 ```
+
 To:
 ```
 #if (RAMEND < 1000)
