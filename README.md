@@ -1,6 +1,6 @@
 # DSTAR-Hotspot
 D-STAR hotspot with open HW and SW under GNU GPL2
-Tested with Raspberry PI 2 and ![Western D-STAR image](http://www.westerndstar.co.uk/html/downloads.html).
+Tested with Raspberry PI 2 and [Western D-STAR image](http://www.westerndstar.co.uk/html/downloads.html).
 
 ![hotspot](https://raw.githubusercontent.com/ok1cdj/dstar-hotspot/master/pics/hotspot.jpg)
 
@@ -9,7 +9,7 @@ Tested with Raspberry PI 2 and ![Western D-STAR image](http://www.westerndstar.c
 Use Arduino 1.5.X
 
 Before programming Arduino be sure the "HardwareSerial.cpp" under Arduino instalation folder\hardware\arduino\cores\arduino is changed.
-
+```
 From:
 #if (RAMEND < 1000)
 #define SERIAL_BUFFER_SIZE 16
@@ -25,6 +25,7 @@ To:
 #define SERIAL_BUFFER_SIZE 128
 #endif
 
+```
 ## HOW to remove console from serial on RPi
 
 $ sudo nano /boot/cmdline.txt
