@@ -4,6 +4,13 @@ DV-MEGA - by Guus van Dooren (PE1PLM) and [DVSP2](http://tech4.pl/SQ9MDD/?p=92) 
 
 Tested with Raspberry PI 2 and [Western D-STAR image](http://www.westerndstar.co.uk/html/downloads.html).
 
+## TODO
+
+** add partlist
+** add more info about HW and building
+** add gerber files for production
+** add configuration for Ircddbgateway and D-STAR repeater
+
 ![hotspot](https://raw.githubusercontent.com/ok1cdj/dstar-hotspot/master/pics/hotspot.jpg)
 
 ## How to compile SW for Arduino
